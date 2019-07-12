@@ -12,7 +12,7 @@ const Shape = (props) => {
         // <div className="square" />
         <div className ={Shape} onClick={() => selectShape(shape)} />
     )
-)
+
     }
 
 export default Shape;
