@@ -9,9 +9,9 @@ class Selector extends Component {
     };
   }
 
-  selectShape = shapeName => {
+  selectShape = (shapeName) => {
     this.setState({
-      selectedShape: shapeName
+      selectedShape: shapeName,
     });
   };
 
