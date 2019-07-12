@@ -10,7 +10,7 @@ const Shape = (props) => {
 
     return (
         // <div className="square" />
-        <div className ={Shape} onClick={() => selectShape(shape)} />
+        <div> className ={Shape} onClick={() => selectShape(shape)} </div>
     )
 
     }
