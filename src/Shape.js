@@ -8,7 +8,6 @@ const Shape = (props) => {
     const selectShape = props.selectShape;
     // console.log("Line 4 in Shape.js, testing props", props.Shape)
 
-}
     return (
         // <div className="square" />
         <div className ={Shape} onClick={() => selectShape(shape)} />
