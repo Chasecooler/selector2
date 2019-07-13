@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import Shape from "./Shape";
 
 class Selector extends Component {
