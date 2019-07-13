@@ -20,7 +20,7 @@ class Selector extends Component {
       <div className="container">
         <div className="navbar">
           <div>
-            Selected: <span> {this.state.selectedShape}</span>
+            <b>Selected:</b><span> {this.state.selectedShape}</span>
           </div>
         </div>
         <div className="shape-list">

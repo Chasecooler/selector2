@@ -8,7 +8,6 @@ const Shape = props => {
 
   return (
     <div className={shape} onClick={() => selectShape(shape)}>
-      hello
     </div>
   );
 };
